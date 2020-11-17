@@ -23,7 +23,7 @@ void toUpperCase(char text[50]){
 	int i = 0;
 	int length = strlen(text);
 	for (i = 0; i < length; i++) {
-		printf("%c", tolower(text[i]));
+		printf("%c", toupper(text[i]));
 	}
 	printf("\n\n");
 }
