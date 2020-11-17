@@ -1,2 +1,5 @@
-.idea/
-main.dSYM
+*
+!.gitignore
+!compile_execute.sh
+!main.c
+!program.c
